@@ -18,4 +18,4 @@ or (still needs to tested):
 
 $ gcc -Wall main.cpp Block.cpp Blockchain.cpp sha256.cpp
 
-Or Run on your IDE
+Or Run on your C++ IDE of choice
