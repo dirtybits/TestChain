@@ -32,7 +32,7 @@ void Block::MineBlock(uint32_t nDifficulty){
 
 // CalculateHash method
 inline std::string Block::_CalculateHash() const{
-    stringstream ss;
+    std::stringstream ss;
     ss << _nIndex << _tTime << _sData << _nNonce << sPrevHash;
 
     return sha256(ss.str);
