@@ -11,3 +11,5 @@ gcc -lstdc++ \
     -x c++ \
     main.cpp Block.cpp Blockchain.cpp sha256.cpp
 ./TestChain
+
+Or Run on your IDE
