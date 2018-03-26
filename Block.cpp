@@ -37,4 +37,3 @@ inline std::string Block::_CalculateHash() const{
 
     return sha256(ss.str);
 }
-]
