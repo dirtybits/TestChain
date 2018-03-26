@@ -19,7 +19,7 @@ private:
     std::string _sHash;
     time_t _tTime;
 
-    inline std::string _CalculateHash() const;
+    std::string _CalculateHash() const;
 
 };
 
