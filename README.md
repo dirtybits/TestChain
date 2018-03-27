@@ -14,7 +14,7 @@ $ gcc -lstdc++ \
     main.cpp Block.cpp Blockchain.cpp sha256.cpp
 ./TestChain
 
-or (still needs to tested):
+or:
 
 $ gcc -Wall main.cpp Block.cpp Blockchain.cpp sha256.cpp
 
