@@ -1,5 +1,6 @@
 #include "Block.h"
 #include "sha256.h"
+#include <sstream>
 
 // implementation of block constructor
 Block::Block(uint32_t nIndexIn, const std::string &sDataIn) : _sData(sDataIn){
